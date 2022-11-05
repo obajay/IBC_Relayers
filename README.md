@@ -1,4 +1,4 @@
-# Mainnets
+<h1 align="center"> Mainnets </h1>
 
 ## [Teritori](https://explorer.stavr.tech/teritori-main/account/tori1ga4fx4mfe3r6ay3vcruslj2mj6fv3tua20sd99) <> [Stride](https://www.mintscan.io/stride/account/stride1673f0t8p893rqyqe420mgwwz92ac4qv6synvx2)
 `Our team opened the channel and keeps it alive`
@@ -28,7 +28,8 @@ teritorid tx ibc-transfer transfer transfer channel-9 strideaddress 100utori --f
 osmosisd tx ibc-transfer transfer transfer channel-0 teritoriaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
 teritorid tx ibc-transfer transfer transfer channel-362 osmoaddress 100"utori" --from <wallet> --fees 100"utori" --chain-id teritori-1 -y
 ```
-# Testnets
+<h1 align="center"> Testnets </h1>
+
 ## [Hypersign](https://explorer.stavr.tech/hypersign/account/hid1vlxp0uaqyqdemc6j3gp3nqxqh25xdf0dje3phu) <> [Teritori](https://explorer.stavr.tech/teritori/account/tori1s0vm8xsshy5nekdn5uc8jresjshz4hneu7y4a0)
 `Our team opened the channel and keeps it alive`
 ```bash
