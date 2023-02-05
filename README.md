@@ -3,7 +3,7 @@
 ## [Teritori](https://explorer.stavr.tech/teritori-main/account/tori1ga4fx4mfe3r6ay3vcruslj2mj6fv3tua20sd99) <> [Stride](https://www.mintscan.io/stride/account/stride1673f0t8p893rqyqe420mgwwz92ac4qv6synvx2)
 `Our team opened the channel and keeps it alive`
 
-```bash
+```python
 chain-id: stride-1
 client-id: 07-tendermint-38
 connection-id: connection-26
@@ -24,7 +24,7 @@ teritorid tx ibc-transfer transfer transfer channel-9 strideaddress 100utori --f
 ## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1pxdmk2hv3qyjt3hlee7yd8nuvk49v6l52v9wpw) <> [Teritori](https://explorer.stavr.tech/teritori-main/account/tori1v9scwrt3ndarwla5juj3mxhr6njpwp4wc3enhm)
 `We deployed a relayer on an existing channel`
 
-```bash
+```python
 osmosisd tx ibc-transfer transfer transfer channel-0 teritoriaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
 teritorid tx ibc-transfer transfer transfer channel-362 osmoaddress 100"utori" --from <wallet> --fees 100"utori" --chain-id teritori-1 -y
 ```
@@ -32,7 +32,7 @@ teritorid tx ibc-transfer transfer transfer channel-362 osmoaddress 100"utori" -
 
 ## [Hypersign](https://explorer.stavr.tech/hypersign/account/hid1vlxp0uaqyqdemc6j3gp3nqxqh25xdf0dje3phu) <> [Teritori](https://explorer.stavr.tech/teritori/account/tori1s0vm8xsshy5nekdn5uc8jresjshz4hneu7y4a0)
 `Our team opened the channel and keeps it alive`
-```bash
+```python
 chain-id: jagrat
 client-id: 07-tendermint-9
 connection-id: connection-11
@@ -47,9 +47,29 @@ port-id: transfer
 channel-id: channel-29
 teritorid tx ibc-transfer transfer transfer channel-29 strideaddress 100"utori" --from <walletName> --chain-id teritori-testnet-v3 -y
 ```
+
+## [Defund](https://explorer.stavr.tech/defund-testnet/account/defund1cd3tuh5amfe46jjs3rnpp3w8d4h394qhc7qm7n) <> [Hypersign](https://explorer.stavr.tech/hypersign/account/hid1vlxp0uaqyqdemc6j3gp3nqxqh25xdf0dje3phu)
+`Our team opened the channel and keeps it alive`
+```python
+chain-id: jagrat
+client-id: 07-tendermint-38
+connection-id: connection-24
+port-id: transfer
+channel-id: channel-18
+hid-noded tx ibc-transfer transfer transfer channel-18 defund1cd3tuh5a.......address "1"uhid --from wallet --chain-id=jagrat -y
+--
+chain-id: defund-private-4
+client-id: 07-tendermint-7
+connection-id: connection-3
+port-id: transfer
+channel-id: channel-4
+defundd tx ibc-transfer transfer transfer channel-4 hid1vlxp0uaqyqdem........address "1"ufetf --from wallet --chain-id defund-private-4 -y
+"ufetf"	ibc/1551B47096911AD1CE8170C4A1C17031D9120A7DE3204C62CB729926CA93F5F3
+"uhid"  ibc/833AC65209BA8EDA03604FBE1BD34A07B378F02910D54B7CDA7225CAC68ADEDD
+```
 ## [Cosmos](https://explorer.stavr.tech/cosmos(gaia)/account/cosmos1jjfdy6akj0cpxm95nlqxx72cgzlzspm84jnfc3) <> [Teritori](https://explorer.stavr.tech/teritori/account/tori1kepukqgun5vm033pp089lvj67q00r87kzemj6w)
 `We deployed a relayer on an existing channel`
-```bash
+```python
 gaiad tx ibc-transfer transfer transfer channel-701 teritoriaddress 100"uatom" --from <wallet> --chain-id=theta-testnet-001 -y
 teritorid tx ibc-transfer transfer transfer channel-33 cosmosaddress 100"utori" --from <wallet> --chain-id teritori-testnet-v3 -y
 "uatom" ibc/8D9734B53D56DC57A92E4CC788547699853F411190F6DAA70FA12B9BD062F7AE
