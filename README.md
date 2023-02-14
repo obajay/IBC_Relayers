@@ -53,17 +53,17 @@ teritorid tx ibc-transfer transfer transfer channel-29 strideaddress 100"utori" 
 ```python
 chain-id: jagrat
 client-id: 07-tendermint-40
-connection-id: connection-24
+connection-id: connection-25
 port-id: transfer
 channel-id: channel-19
-hid-noded tx ibc-transfer transfer transfer channel-18 defund1cd3tuh5a.......address "1"uhid --from wallet --chain-id=jagrat -y
+hid-noded tx ibc-transfer transfer transfer channel-19 defund1cd3tuh5a.......address "1"uhid --from wallet --chain-id=jagrat -y
 --
 chain-id: defund-private-4
 client-id: 07-tendermint-14
-connection-id: connection-3
+connection-id: connection-9
 port-id: transfer
 channel-id: channel-11
-defundd tx ibc-transfer transfer transfer channel-4 hid1vlxp0uaqyqdem........address "1"ufetf --from wallet --chain-id defund-private-4 -y
+defundd tx ibc-transfer transfer transfer channel-11 hid1vlxp0uaqyqdem........address "1"ufetf --from wallet --chain-id defund-private-4 -y
 "ufetf"	ibc/295323E334581027CE5E55FBB085E33AED9A333F7CC446F681B12FA605311E32
 "uhid"  ibc/C472CFCF4F1C39A4C97903CCB7F93B7D16A2237AEB9AA7AB9D9420EC1BB37DE1
 ```
