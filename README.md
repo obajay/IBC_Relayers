@@ -52,20 +52,20 @@ teritorid tx ibc-transfer transfer transfer channel-29 strideaddress 100"utori" 
 `Our team opened the channel and keeps it alive`
 ```python
 chain-id: jagrat
-client-id: 07-tendermint-38
+client-id: 07-tendermint-40
 connection-id: connection-24
 port-id: transfer
-channel-id: channel-18
+channel-id: channel-19
 hid-noded tx ibc-transfer transfer transfer channel-18 defund1cd3tuh5a.......address "1"uhid --from wallet --chain-id=jagrat -y
 --
 chain-id: defund-private-4
-client-id: 07-tendermint-7
+client-id: 07-tendermint-14
 connection-id: connection-3
 port-id: transfer
-channel-id: channel-4
+channel-id: channel-11
 defundd tx ibc-transfer transfer transfer channel-4 hid1vlxp0uaqyqdem........address "1"ufetf --from wallet --chain-id defund-private-4 -y
-"ufetf"	ibc/1551B47096911AD1CE8170C4A1C17031D9120A7DE3204C62CB729926CA93F5F3
-"uhid"  ibc/833AC65209BA8EDA03604FBE1BD34A07B378F02910D54B7CDA7225CAC68ADEDD
+"ufetf"	ibc/295323E334581027CE5E55FBB085E33AED9A333F7CC446F681B12FA605311E32
+"uhid"  ibc/C472CFCF4F1C39A4C97903CCB7F93B7D16A2237AEB9AA7AB9D9420EC1BB37DE1
 ```
 ## [Cosmos](https://explorer.stavr.tech/cosmos(gaia)/account/cosmos1jjfdy6akj0cpxm95nlqxx72cgzlzspm84jnfc3) <> [Teritori](https://explorer.stavr.tech/teritori/account/tori1kepukqgun5vm033pp089lvj67q00r87kzemj6w)
 `We deployed a relayer on an existing channel`
