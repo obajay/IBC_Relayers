@@ -21,15 +21,32 @@ channel-id: channel-9
 teritorid tx ibc-transfer transfer transfer channel-9 strideaddress 100utori --from <walletName> --chain-id teritori-1 -y
 ```
 
-## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1at8e9mfuztffnc5mryehpl8yr5uewcggenffdu) <> [Juno](https://www.mintscan.io/juno/account/juno1grhaqx02dg8ahwz9ca08d6lnun9hmaeajmx0sz) <> [Cosmos](https://www.mintscan.io/cosmos/account/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9)🟢
+## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1at8e9mfuztffnc5mryehpl8yr5uewcggenffdu) <> [Juno](https://www.mintscan.io/juno/account/juno1grhaqx02dg8ahwz9ca08d6lnun9hmaeajmx0sz) <> [Cosmos](https://www.mintscan.io/cosmos/account/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9) <> [Bitcanna](https://www.mintscan.io/bitcanna/account/bcna1f990s6slx4s0qv9s9h476pah5cejzdmvgp0x58)🟢
 `We deployed a relayer on an existing channel`
 
 ```python
 osmosisd tx ibc-transfer transfer transfer channel-42 junoaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
+osmosisd tx ibc-transfer transfer transfer channel-51 bitcannaaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
 junod tx ibc-transfer transfer transfer channel-0 osmoaddress 100"ujuno" --from <wallet> --fees 5000"ujuno" --chain-id juno-1 -y
 junod tx ibc-transfer transfer transfer channel-1 cosmosaddress 100"ujuno" --from <wallet> --fees 5000"ujuno" --chain-id juno-1 -y
+junod tx ibc-transfer transfer transfer channel-50 bitcannaddress 100"ujuno" --from <wallet> --fees 5000"ujuno" --chain-id juno-1 -y
 gaiad tx ibc-transfer transfer transfer channel-207 junoaddress 100"uatom" --from <wallet> --fees 5000"uatom" --chain-id cosmoshub-4 -y
+gaiad tx ibc-transfer transfer transfer channel-232 bitcannaaddress 100"uatom" --from <wallet> --fees 5000"uatom" --chain-id cosmoshub-4 -y
+bcnad tx ibc-transfer transfer transfer channel-10 junoaddress 100"ubcna" --from <wallet> --fees 500"ubcna" --chain-id bitcanna-1 -y
+bcnad tx ibc-transfer transfer transfer channel-1 osmoaddress 100"ubcna" --from <wallet> --fees 500"ubcna" --chain-id bitcanna-1 -y
+bcnad tx ibc-transfer transfer transfer channel-3 cosmosaddress 100"ubcna" --from <wallet> --fees 500"ubcna" --chain-id bitcanna-1 -y
 ```
+## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1at8e9mfuztffnc5mryehpl8yr5uewcggenffdu) <> [Quicksilver](https://www.mintscan.io/quicksilver/account/quick1s555gqq6yhqa4nw688tvs6mj8jaay6spp6aexn) <> [Umee](https://www.mintscan.io/umee/account/umee15wn9jeqec7vy9h973lgr202jskjpuwzmq0z04k)🟢
+`We deployed a relayer on an existing channel`
+
+```python
+osmosisd tx ibc-transfer transfer transfer channel-522 quickaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
+quicksilverd tx ibc-transfer transfer transfer channel-49 umeeaddress 100"uqck" --from <wallet> --fees 500"uqck" --chain-id quicksilver-2 -y
+quicksilverd tx ibc-transfer transfer transfer channel-2 osmoaddress 100"uqck" --from <wallet> --fees 500"uqck" --chain-id quicksilver-2 -y
+umeed tx ibc-transfer transfer transfer channel-53 quickaddress 100"uumee" --from <wallet> --fees 500"uumee" --chain-id umee-1 -y
+```
+
+
 ## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1pxdmk2hv3qyjt3hlee7yd8nuvk49v6l52v9wpw) <> [Teritori](https://explorer.stavr.tech/teritori-main/account/tori1v9scwrt3ndarwla5juj3mxhr6njpwp4wc3enhm)🟢
 `We deployed a relayer on an existing channel`
 
