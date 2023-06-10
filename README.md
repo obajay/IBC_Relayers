@@ -57,6 +57,13 @@ teritorid tx ibc-transfer transfer transfer channel-362 osmoaddress 100"utori" -
 
 <h1 align="center"> Testnets </h1>
 
+## [Cosmos](https://explorer.theta-testnet.polypore.xyz/accounts/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9) <> [Empower](https://explorer.stavr.tech/empower/account/empower1xz7a5r70a593zhp2hmjn9jtf9knhkhum7aatn9) <> [Osmosis](https://testnet.mintscan.io/osmosis-testnet/account/osmo1rj72094qkhlll5a2y2cdvkk7j998etun4zcl67) 🟢
+`We deployed a relayer on an existing channel`
+```python
+empowerd tx ibc-transfer transfer transfer channel-1 cosmosaddress "1"umpwr --from Empwallet --fees 9000umpwr --chain-id circulus-1 -y
+empowerd tx ibc-transfer transfer transfer channel-0 osmoaddress "1"umpwr --from Empwallet --fees 9000umpwr --chain-id circulus-1 -y
+```
+
 ## [Hypersign](https://explorer.stavr.tech/hypersign/account/hid1vlxp0uaqyqdemc6j3gp3nqxqh25xdf0dje3phu) <> [Teritori](https://explorer.stavr.tech/teritori/account/tori1s0vm8xsshy5nekdn5uc8jresjshz4hneu7y4a0) 🔴Disabled at this stage (testing is over)
 `Our team opened the channel and keeps it alive`
 ```python
@@ -101,6 +108,5 @@ gaiad tx ibc-transfer transfer transfer channel-701 teritoriaddress 100"uatom" -
 teritorid tx ibc-transfer transfer transfer channel-33 cosmosaddress 100"utori" --from <wallet> --chain-id teritori-testnet-v3 -y
 "uatom" ibc/8D9734B53D56DC57A92E4CC788547699853F411190F6DAA70FA12B9BD062F7AE
 "utori" ibc/B4467B4B6E4D6994977E33C4735FB884EE3BFC6D100CA7AAA484C08904A196DC 
-
 ```
 
