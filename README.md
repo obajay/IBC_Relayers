@@ -57,7 +57,7 @@ teritorid tx ibc-transfer transfer transfer channel-362 osmoaddress 100"utori" -
 
 <h1 align="center"> Testnets </h1>
 
-## [Cosmos](https://explorer.theta-testnet.polypore.xyz/accounts/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9) <> [Empower](https://explorer.stavr.tech/empower/account/empower1xz7a5r70a593zhp2hmjn9jtf9knhkhum7aatn9) <> [Osmosis](https://testnet.mintscan.io/osmosis-testnet/account/osmo1rj72094qkhlll5a2y2cdvkk7j998etun4zcl67) 🟢
+## [Cosmos](https://explorer.theta-testnet.polypore.xyz/accounts/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9) <> [Empower](https://explorer.stavr.tech/empower/account/empower1xz7a5r70a593zhp2hmjn9jtf9knhkhum7aatn9) <> [Osmosis](https://testnet.mintscan.io/osmosis-testnet/account/osmo1rj72094qkhlll5a2y2cdvkk7j998etun4zcl67) 🔴Disabled at this stage (testing is over)
 `We deployed a relayer on an existing channel`
 ```python
 empowerd tx ibc-transfer transfer transfer channel-1 cosmosaddress "1"umpwr --from Empwallet --fees 9000umpwr --chain-id circulus-1 -y
