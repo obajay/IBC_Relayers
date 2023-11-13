@@ -1,26 +1,5 @@
 <h1 align="center"> Mainnets </h1>
 
-## [Teritori](https://explorer.stavr.tech/Teritori-Main/account/tori1ga4fx4mfe3r6ay3vcruslj2mj6fv3tua20sd99) <> [Stride](https://www.mintscan.io/stride/account/stride1673f0t8p893rqyqe420mgwwz92ac4qv6synvx2)🟢
-`Our team opened the channel and keeps it alive`
-
-```python
-chain-id: stride-1
-client-id: 07-tendermint-38
-connection-id: connection-26
-port-id: transfer
-channel-id: channel-41
-"ustrd" on stride-1: ibc/197019C5C45A5E279A78F72BAAFFD5869FD5A93293245E8A45D8AFFF431C6131
-strided tx ibc-transfer transfer transfer channel-41 teritoriaddress 100ustrd --from <walletName> --chain-id stride-1 -y
---
-chain-id: teritori-1
-client-id: 07-tendermint-30
-connection-id: connection-10
-port-id: transfer
-channel-id: channel-9
-"utori" on teritori-1: ibc/C5FFCD549BC16BC1682454D30A9225F1C51C7613910D32B58EF4E12FF03471E1
-teritorid tx ibc-transfer transfer transfer channel-9 strideaddress 100utori --from <walletName> --chain-id teritori-1 -y
-```
-
 ## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1at8e9mfuztffnc5mryehpl8yr5uewcggenffdu) <> [Juno](https://www.mintscan.io/juno/account/juno1grhaqx02dg8ahwz9ca08d6lnun9hmaeajmx0sz) <> [Cosmos](https://www.mintscan.io/cosmos/account/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9) <> [Bitcanna](https://www.mintscan.io/bitcanna/account/bcna1f990s6slx4s0qv9s9h476pah5cejzdmvgp0x58)🟢
 `We deployed a relayer on an existing channel`
 
@@ -47,15 +26,25 @@ umeed tx ibc-transfer transfer transfer channel-53 quickaddress 100"uumee" --fro
 ```
 
 
-## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1pxdmk2hv3qyjt3hlee7yd8nuvk49v6l52v9wpw) <> [Teritori](https://explorer.stavr.tech/Teritori-Main/account/tori1v9scwrt3ndarwla5juj3mxhr6njpwp4wc3enhm)🟢
+## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1at8e9mfuztffnc5mryehpl8yr5uewcggenffdu) <> [Teritori](https://www.mintscan.io/teritori/account/tori17rwvng2fy6ldph8ntxa78t39t3laexkth7lutq) <> [Cosmos](https://www.mintscan.io/cosmos/account/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9)🟢
 `We deployed a relayer on an existing channel`
 
 ```python
-osmosisd tx ibc-transfer transfer transfer channel-0 teritoriaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
-teritorid tx ibc-transfer transfer transfer channel-362 osmoaddress 100"utori" --from <wallet> --fees 100"utori" --chain-id teritori-1 -y
+osmosisd tx ibc-transfer transfer transfer channel-362 teritoriaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
+teritorid tx ibc-transfer transfer transfer channel-0 osmoaddress 100"utori" --from <wallet> --fees 100"utori" --chain-id teritori-1 -y
+teritorid tx ibc-transfer transfer transfer channel-10 cosmoddress 100"utori" --from <wallet> --fees 100"utori" --chain-id teritori-1 -y
+gaiad tx ibc-transfer transfer transfer channel-431 teritoriaddress 100"uatom" --from <wallet> --fees 5000"uatom" --chain-id cosmoshub-4 -y
 ```
 
 <h1 align="center"> Testnets </h1>
+
+## [Elys](https://explorer.stavr.tech/Elys-Testnet/account/elys1pr7mn2pt327d5sp6k20qrgspqpcekplgpxja2f) <> [Axelar](https://testnet.mintscan.io/axelar-testnet/account/axelar12ntjnp9hqtrla7fhr7an0jfrdy855afa7xeccp)🟢
+`We deployed a relayer on an existing channel`
+```python
+elysd tx ibc-transfer transfer transfer channel-15 axelaraddress "1"uelys --from elyswallet --chain-id elystestnet-1 --fees 50uelys -y
+axelard tx ibc-transfer transfer transfer channel-315 elysaddress "2"uaxl --from axelarwallet --chain-id=axelar-testnet-lisbon-3 -y
+```
+
 
 ## [Cosmos](https://explorer.theta-testnet.polypore.xyz/accounts/cosmos1ksnuupxn5pjc6h0e5t4g0nfuxqadxzyf2ypmd9) <> [Empower](https://explorer.stavr.tech/Empower/account/empower1xz7a5r70a593zhp2hmjn9jtf9knhkhum7aatn9) <> [Osmosis](https://testnet.mintscan.io/osmosis-testnet/account/osmo1rj72094qkhlll5a2y2cdvkk7j998etun4zcl67) 🔴Disabled at this stage (testing is over)
 `We deployed a relayer on an existing channel`
