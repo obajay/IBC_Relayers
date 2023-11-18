@@ -44,6 +44,14 @@ osmosisd tx ibc-transfer transfer transfer channel-412 jackaladdress 100"uosmo" 
 canined tx ibc-transfer transfer transfer channel-0 osmoaddress 100"ujkl" --from <wallet> --fees 100"ujkl" --chain-id jackal-1 -y
 ```
 
+## [Osmosis](https://www.mintscan.io/osmosis/account/osmo1at8e9mfuztffnc5mryehpl8yr5uewcggenffdu) <> [Source](https://explorer.stavr.tech/Source-Mainnet/account/source1p03j55aw3zm8tnnm45ek299xre07us3gm4n5sf)🟢
+`We deployed a relayer on an existing channel`
+
+```python
+osmosisd tx ibc-transfer transfer transfer channel-8945 sourceaddress 100"uosmo" --from <wallet> --fees 100"uosmo" --chain-id osmosis-1 -y
+sourced tx ibc-transfer transfer transfer channel-0 osmoaddress 100"usource" --from <wallet> --fees 5000"usource" --chain-id source-1 -y
+```
+
 <h1 align="center"> Testnets </h1>
 
 ## [Elys](https://explorer.stavr.tech/Elys-Testnet/account/elys1pr7mn2pt327d5sp6k20qrgspqpcekplgpxja2f) <> [Axelar](https://testnet.mintscan.io/axelar-testnet/account/axelar12ntjnp9hqtrla7fhr7an0jfrdy855afa7xeccp)🟢
