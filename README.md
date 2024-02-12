@@ -27,3 +27,9 @@
 <h1 align="center"> Umee Relayer </h1>
 
 [<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Umee%20-Osmosis.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
+
+<h1 align="center"> Mainnets </h1>
+
+<h1 align="center"> Elys Relayer </h1>
+
+[<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Elys%20-%20Axelar.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
