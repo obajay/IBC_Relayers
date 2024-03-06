@@ -16,6 +16,14 @@
 
 [<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Jackal%20-%20Osmosis.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
 
+<h2 align="center"> Juno Relayer </h2>
+
+[<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Juno%20-Meme.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
+
+<h2 align="center"> Meme Relayer </h2>
+
+[<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Meme%20-%20Juno.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
+
 <h2 align="center"> Provenance Relayer </h2>
 
 [<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Provenance%20-%20Osmosis.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
