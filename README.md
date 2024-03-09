@@ -30,11 +30,11 @@
 
 <h2 align="center"> Quicksilver Relayer </h2>
 
-[<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Quicksilver%20-%20Osmosis.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
+[<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Quicksilver%20-%20Osmosis.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)                [<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Quicksilver%20-%20Umee.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
 
 <h2 align="center"> Umee Relayer </h2>
 
-[<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Umee%20-Osmosis.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
+[<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Umee%20-Osmosis.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)                [<img src='https://github.com/111STAVR111/ibc_logo/blob/main/Umee%20-%20Quicksilver.png?raw=true' height='74'>](https://github.com/obajay/IBC_Relayers)
 
 <h1 align="center"> Testnets </h1>
 
